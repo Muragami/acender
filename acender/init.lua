@@ -59,7 +59,7 @@ acender.loveBind = function(self, name)
     if love[sname] then
         self.module[name] = love[sname]
     else
-        error("love does not contain module: " .. (name or 'nil'))
+        error("love2d does not contain module: " .. (name or 'nil'))
     end
 end
 end
